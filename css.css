@@ -38,7 +38,7 @@ h1 {font-size: 28px;
 }
 .item:hover{
     background-color:  rgba(99, 105, 110, 0.48);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .href{
@@ -48,5 +48,5 @@ h1 {font-size: 28px;
 }
 .item:hover .href{
     color: #010101;
-    transition: 0.5s;
+    transition: 0.2s;
 }
