@@ -30,11 +30,11 @@ h1 {font-size: 28px;
 .item{
     list-style: none;
     margin: 4% ;
-    border-radius: 4px;
+    border-radius: 6px;
     text-align: center;
     cursor: pointer;
     background-color: #35444F;;
-    padding: 4px;
+    padding: 10px;
 }
 .item:hover{
     background-color:  rgba(99, 105, 110, 0.48);
