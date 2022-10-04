@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    min-width: 320px;
+    max-width: 1160px;
+    
+   
+    background: linear-gradient(180deg, rgba(48,45,61,1) 0%, rgba(21,20,26,1) 100%);
+    
+
+}
+.header{
+    text-align: center;
+    
+    & h2 {
+        font-size: 26px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-top: 2rem;
+        
+    }
+    & h3{
+    color: #9486a7;
+    padding-top: 1rem;
+    
+    }
+    & h4{
+        margin-bottom: 2rem;
+        & .mail-href{
+        color: #6b60e6;
+        text-decoration: none;
+        padding: 2rem 0;
+        }
+    }
+    & .ava{
+        background-image: url("/dist/img/avatar.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 4rem;
+        border-radius: 50%;
+        border: 8px solid #6b60e6;
+    }
+}
+.list {
+    justify-content: center;
+    align-items: center; 
+    font-size: 18px;
+    width: 40%;
+    margin: 0 auto;
+    
+}
+.item{
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 5% 20%;
+    margin: 3px;
+    border-radius: 8px;
+}
+.line{
+    list-style: none;
+    border-top: 2px solid #21222d;
+    width: 100%;
+}
+.item:hover{
+    background-color: #6b60e6;
+    transition: 0.2s;
+    & .href{
+        /* color: #010101; */
+        transition: 0.2s;
+    }
+}
+
+.href{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
